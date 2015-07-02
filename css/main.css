@@ -1,0 +1,61 @@
+
+html, body {
+  margin: 20px;
+}
+
+#threads {
+  height: 100vh;
+  overflow: auto;
+}
+
+#threads h2 {
+  border-bottom: 1px solid #333;
+}
+
+#threads a {
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+}
+
+#threads a:hover {
+  background-color: #e6e6e6;
+}
+
+#threads .active:hover, .active, h2 span{
+  background-color:#333;
+  color: white;
+}
+
+#thread h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+#thread h4 {
+  text-align: center;
+}
+
+#thread img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#post {
+  padding: 1em;
+  margin-top: 2em;
+  text-align: left;
+  font-size: 1em;
+}
+
+#post-link a{
+  word-wrap: break-word;
+}
+
+#no-post {
+  padding: 1em;
+  margin-top: 2em;
+  text-align:left;
+  font-size: 1em;
+}
